@@ -50,6 +50,9 @@ springdoc.swagger-ui.operationsSorter=method
 springdoc.swagger-ui.tagsSorter=alpha
 springdoc.swagger-ui.tryItOutEnabled=true
 
+# Comma-separated trusted browser origins; add each production/preview hostname explicitly.
+CORS_ALLOWED_ORIGINS=https://kisanmitra-ai-chi.vercel.app,https://kisanmitra-fz9qrvmun-mbindupriya37-1052.vercel.app,http://localhost:5173,http://127.0.0.1:5173
+
 # Temporary startup diagnostics
 logging.level.org.springframework=INFO
 logging.level.org.springframework.orm.jpa=DEBUG
